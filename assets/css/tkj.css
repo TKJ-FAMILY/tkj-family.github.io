@@ -77,7 +77,63 @@ nav li a:hover{
 .active{
 	box-shadow: 4px 4px 0px #E13E00;
 }
+main{
+	padding: 70px 120px 30px 120px;
+}
+article .page-title{
+	margin-bottom: 20px;
+}
+article p{
+	font-family: monospace;
+}
+.preview{
+	padding-top: 50px;
+}
+.preview-title{
+	border-bottom: 1px solid #333;
+	padding-bottom: 15px;
+}
+.preview-images img{
+	width: 100%;
+}
+.preview-images{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.preview-images h6{
+	margin-top: 20px;
+}
+.preview-images-phone{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.preview-images-phone img{
+	width: 25%;
+}
+footer a{
+	display: block;
+	text-decoration: none;
+	color: #545454;
+}
+footer a:hover{
+	color: #FFFF;
+}
 @media (max-width: 600px){
+	.preview-images{
+		padding: 0;
+	}
+	.preview-images-phone{
+		display: block;
+		width: 100%;
+	}
+	.preview-images-phone img{
+		width: 100%;
+		margin: 5px 0;
+	}
+	main{
+		padding: 70px 40px 30px 40px;
+	}
 	.tkj-brand h1{
 		font-size: 3em;
 		line-height: 1;
