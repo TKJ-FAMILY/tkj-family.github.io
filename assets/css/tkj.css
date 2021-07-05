@@ -93,6 +93,9 @@ main{
 article .page-title{
 	margin-bottom: 20px;
 }
+.page-title{
+	font-family: monospace;
+}
 article p{
 	font-family: monospace;
 }
@@ -162,6 +165,16 @@ blockquote q p{
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
+}
+.home-description{
+	background: #16191C;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: monospace;
+}
+.greetings{
+	border-bottom: 1px solid #333;
+	margin-bottom: 18px;
 }
 footer a{
 	display: block;
