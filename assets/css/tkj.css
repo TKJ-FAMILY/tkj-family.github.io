@@ -1,3 +1,13 @@
+body{
+	position: relative;
+}
+.btn-orange-tkj{
+	background: #E13E00;
+}
+.btn-orange-tkj:focus{
+	background: #C63500;
+	box-shadow: 0 0 0 0.25rem #E13E00 !important;
+}
 .tkj-jumbotron{
 	display: flex;
 	height: 300px;
@@ -111,6 +121,48 @@ article p{
 .preview-images-phone img{
 	width: 25%;
 }
+.dev-contribute{
+	padding: 50px 0;
+}
+.dev-contribute img{
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+blockquote{
+	opacity: .7;
+	padding: 50px 0;
+}
+blockquote q{
+	font-size: 60px;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	font-family: Times New Roman;
+	position: relative;
+}
+blockquote q::before{
+	position: absolute;
+	top: -75px;
+	left: -64px;
+	font-size: 300px;
+	color: #565656;
+}
+blockquote q::after{
+	display: none;
+}
+blockquote q p{
+	font-style: oblique;
+	font-size: 20px;
+}
+.download-link{
+	padding: 40px 0;
+}
+.floating-madein-indonesia{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
 footer a{
 	display: block;
 	text-decoration: none;
@@ -132,7 +184,7 @@ footer a:hover{
 		margin: 5px 0;
 	}
 	main{
-		padding: 70px 40px 30px 40px;
+		padding: 70px 28px 30px 28px;
 	}
 	.tkj-brand h1{
 		font-size: 3em;
