@@ -1,13 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body{
 	position: relative;
+	font-family: 'Open Sans', sans-serif;
 }
-.btn-orange-tkj{
-	background: #E13E00;
-}
-.btn-orange-tkj:focus{
-	background: #C63500;
-	box-shadow: 0 0 0 0.25rem #E13E00 !important;
-}
+
 .tkj-jumbotron{
 	display: flex;
 	height: 300px;
@@ -51,6 +47,13 @@ body{
 }
 .tkj-brand h1{
 	position: relative;
+}
+.btn-orange-tkj{
+	background: #E13E00;
+}
+.btn-orange-tkj:focus{
+	background: #C63500;
+	box-shadow: 0 0 0 0.25rem #E13E00 !important;
 }
 .github-pages{
 	position: absolute;
@@ -175,6 +178,14 @@ blockquote q p{
 .greetings{
 	border-bottom: 1px solid #333;
 	margin-bottom: 18px;
+}
+/*New Update Sec*/
+.next-update{
+	margin: 20px 0;
+}
+.next-update h4{
+	margin-bottom: 30px;
+	font-family: monospace;
 }
 footer a{
 	display: block;
