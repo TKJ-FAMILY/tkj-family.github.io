@@ -119,6 +119,9 @@ article p{
 .preview-images h6{
 	margin-top: 20px;
 }
+.preview-images-pc img{
+	margin: 5px 0;
+}
 .preview-images-phone{
 	display: flex;
 	width: 100%;
@@ -196,6 +199,9 @@ footer a:hover{
 	color: #FFFF;
 }
 @media (max-width: 600px){
+	nav li a{
+		padding: 7px 13px;
+	}
 	.preview-images{
 		padding: 0;
 	}
